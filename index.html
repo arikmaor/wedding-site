@@ -41,6 +41,18 @@
         background-repeat: no-repeat;
         background-position: center;
       }
+      .arik-qr-bit {
+        background-image: url("arik-bit-qr.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .lee-qr-bit {
+        background-image: url("lee-bit-qr.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
     </style>
   </head>
   <body>
@@ -80,7 +92,7 @@
         class="bg-white rounded-lg p-6 max-w-2xl w-full mx-4 max-h-[90vh] overflow-auto"
       >
         <div class="flex justify-between items-center mb-4">
-          <h2 class="text-2xl font-bold text-gray-800">מתנה בביט</h2>
+          <!-- <h2 class="text-2xl font-bold text-gray-800">מתנה בביט</h2> -->
           <button
             id="close-dialog"
             class="text-gray-500 hover:text-gray-700 text-2xl"
@@ -90,37 +102,41 @@
         </div>
         <div class="grid grid-cols-2 gap-4">
           <div class="text-center">
-            <div
-              class="bg-gray-200 w-32 h-32 mx-auto mb-2 flex items-center justify-center rounded"
+            <a
+              href="https://www.bitpay.co.il/app/me/06228D93-1EE0-495B-9341-37B53A0252A9"
             >
-              <span class="text-gray-500">QR Code 1</span>
-            </div>
-            <p class="text-sm text-gray-600">אריק</p>
+              <div
+                class="arik-qr-bit bg-gray-200 w-32 h-32 mx-auto mb-2 flex items-center justify-center rounded"
+              ></div>
+              <p class="text-sm text-gray-600">אריק</p>
+            </a>
           </div>
           <div class="text-center">
-            <div
-              class="bg-gray-200 w-32 h-32 mx-auto mb-2 flex items-center justify-center rounded"
+            <a
+              href="https://www.bitpay.co.il/app/me/0B5773E2-F9AB-4052-AF96-A1CE8A1D19E0"
             >
-              <span class="text-gray-500">QR Code 2</span>
-            </div>
-            <p class="text-sm text-gray-600">לי</p>
+              <div
+                class="lee-qr-bit bg-gray-200 w-32 h-32 mx-auto mb-2 flex items-center justify-center rounded"
+              ></div>
+              <p class="text-sm text-gray-600">לי</p>
+            </a>
           </div>
-          <div class="text-center">
-            <div
-              class="bg-gray-200 w-32 h-32 mx-auto mb-2 flex items-center justify-center rounded"
-            >
-              <span class="text-gray-500">QR Code 3</span>
-            </div>
-            <p class="text-sm text-gray-600">חשבון משותף</p>
-          </div>
-          <div class="text-center">
-            <div
-              class="bg-gray-200 w-32 h-32 mx-auto mb-2 flex items-center justify-center rounded"
-            >
-              <span class="text-gray-500">QR Code 4</span>
-            </div>
-            <p class="text-sm text-gray-600">פייבוקס</p>
-          </div>
+          <!-- <div class="text-center"> -->
+          <!--   <div -->
+          <!--     class="bg-gray-200 w-32 h-32 mx-auto mb-2 flex items-center justify-center rounded" -->
+          <!--   > -->
+          <!--     <span class="text-gray-500">QR Code 3</span> -->
+          <!--   </div> -->
+          <!--   <p class="text-sm text-gray-600">חשבון משותף</p> -->
+          <!-- </div> -->
+          <!-- <div class="text-center"> -->
+          <!--   <div -->
+          <!--     class="bg-gray-200 w-32 h-32 mx-auto mb-2 flex items-center justify-center rounded" -->
+          <!--   > -->
+          <!--     <span class="text-gray-500">QR Code 4</span> -->
+          <!--   </div> -->
+          <!--   <p class="text-sm text-gray-600">פייבוקס</p> -->
+          <!-- </div> -->
         </div>
       </div>
     </div>
